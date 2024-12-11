@@ -1,0 +1,137 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa; /* Warna latar belakang */
+    font-family: 'Arial', sans-serif; /* Font default */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff; /* Warna latar navbar biru muda */
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #fff !important; /* Menetapkan warna putih pada teks navbar */
+}
+
+.navbar .nav-link:hover {
+    color: #f8f9fa !important; /* Warna saat hover */
+}
+
+/* Home Section Styles */
+#home {
+    padding: 5rem 0;
+    background-color: #e3f2fd; /* Warna latar belakang biru muda */
+    text-align: center;
+}
+
+#home h2 {
+    color: #007bff; /* Warna judul */
+    font-size: 2.5rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+    color: #555; /* Warna teks deskripsi */
+}
+
+/* Gambar yang lebih besar dan responsif */
+.img-fluid {
+    width: 100%;  /* Membuat gambar menyesuaikan lebar kolom */
+    max-width: 1000px; /* Membatasi ukuran maksimal gambar */
+    height: auto;  /* Menjaga rasio gambar tetap proporsional */
+}
+
+/* Mengatur video agar tampil dengan lebar 900px dan terpusat */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;  /* Tengah secara horizontal */
+    width: 1000px;    /* Atur lebar video */
+}
+
+/* Menyesuaikan ukuran video jika Anda ingin fleksibilitas */
+.video-container video {
+    width: 100%;
+    height: auto;  /* Menjaga rasio aspek */
+}
+
+/* Menambahkan margin bawah untuk ruang antar gambar */
+.mb-4 {
+    margin-bottom: 2rem;
+}
+
+/* Form Styling */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 0.375rem; /* Sudut rounded pada input */
+    box-shadow: none; /* Menghilangkan shadow pada input */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Warna latar tombol */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna tombol saat hover */
+}
+
+/* Styling Tabel Hasil Rekomendasi */
+.table {
+    background-color: #e3f2fd; /* Warna biru muda */
+    border: 1px solid #90caf9; /* Garis biru lebih gelap */
+    border-radius: 8px;
+}
+
+/* Warna teks dan padding */
+.table th, .table td {
+    color: #0d47a1; /* Warna teks biru tua */
+    padding: 15px;
+    text-align: left;
+}
+
+/* Hover effect */
+.table tr:hover {
+    background-color: #bbdefb; /* Warna biru lebih gelap untuk efek hover */
+}
+
+/* Styling untuk List Group Hasil Rekomendasi */
+.list-group-item {
+    background-color: #f8f9fa; /* Warna latar tabel */
+    border: 1px solid #ddd; /* Warna border tabel */
+    margin-bottom: 1rem;
+    border-radius: 0.375rem; /* Sudut rounded */
+}
+
+.list-group-item h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.list-group-item p {
+    color: #555;
+}
+
+/* Styling untuk Card Hasil Rekomendasi */
+.card {
+    border: none;
+    border-radius: 0.375rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+    background-color: #f1f1f1;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.card-text {
+    color: #555;
+}
